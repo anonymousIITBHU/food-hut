@@ -20,7 +20,7 @@ export default function Cart() {
     //getting email from localstorage .. we already saved the email in localstorage
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("https://seven-spices-backend.onrender.com/api/orderData", {
+    let response = await fetch("https://food-hut-back-v1.vercel.app/api/orderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
