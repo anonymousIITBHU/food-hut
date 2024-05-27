@@ -11,7 +11,7 @@ export default function Home(){
   const [foodItem,setFoodItem] = useState([]);
   
   const loadData = async ()=>{
-    let response = await fetch("https://seven-spices-backend.onrender.com/api/foodData",{
+    let response = await fetch("https://food-hut-back-v1.vercel.app/api/foodData",{
       method:"POST",
       header:{
         'Content-Type': 'application/json'
